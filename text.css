@@ -1,0 +1,225 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: #eee8ae;
+  
+}
+.main_wrap{
+    width: 100%;
+}
+.wrap{
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+.header_bg{
+    background-color: #fab72a;
+    border-bottom: 5px solid #6b710b;
+    border-right: 1px solid green;
+    border-left: 1px solid green ;
+}
+#header{
+padding: 15px;
+border-right: 1px solid green;
+border-left: 1px solid green ;
+}
+
+#header h2{
+    color: #fffff1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header p{
+    color: #788420;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nev_bg{
+    background-color: #fff;
+    border-bottom: 5px solid #6b710b;
+    
+}
+#nev{
+    border-right: 1px solid green;
+    border-left: 1px solid green ;
+    height: 37px;
+}
+#nev ul{ 
+    background-color: #fff;
+    list-style-type: none;
+}
+#nev ul li{
+    float: left;
+    border-right: 1px solid #6b710e;
+}
+#nev ul li:last-child{
+    border: none;
+}
+#nev ul li a{
+    text-decoration: none;
+    color:#6b710b;
+    display: block;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nev ul li a:hover{ 
+    color:#fff;
+    background: #6b710e;
+}
+#nev ul li{
+    position: relative;
+}
+#nev ul li ul{
+    position: absolute;
+    left: -99999px;
+    background-color: #fff;
+    border-top:2px solid #6b710b;
+}
+#nev ul li:hover ul{
+    left: 0;
+}
+#nev ul li ul li{
+    border-right: none;
+    border-bottom:1px solid #6b710b;
+    width: 200px;
+    position: relative;
+    transition: 0.3s all ease;
+}
+#nev ul li ul li ul{
+    position: absolute;
+    top: -99999px;
+
+}
+#nev ul li ul li:hover ul{
+    top: 0;
+    left: 200px;
+}
+#nev ul li ul li ul li{
+   border-left: 1px solid #6b710b;
+}
+#nev ul li ul li ul li:last-child{
+    border-left: 1px solid #6b710b;
+    border-bottom: 2px solid #6b710b;
+}
+.photo_bg{
+    background-color: #ddd;
+    border-bottom: 5px solid #6b710b;
+}
+#photo img{
+    width:958px;
+  vertical-align:middle;
+   border-right: 1px solid green;
+   border-left:1.3px solid green  ;
+}
+.content_wrap{
+    background-color: #fff;
+}
+#content_wrepper{
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+    border-right: 1px solid green;
+    border-left:1px solid green  ;
+}
+#content{
+    width: 620px;
+    margin-right: 20px;
+    float: left;
+}
+#content h2{
+    color: #6b710e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+#content h3{
+    color: #6b710e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#content p{
+    margin: 15px 0;
+}
+#content img{
+    width: 500px;
+   
+}
+#content figure{
+    width: 500px;
+    padding: 10px;
+    background-color: #ddd; 
+    text-align: center;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+}
+blockquote{
+    background-color: #ddd;
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    border-left: 5px solid orange;
+    
+}
+#content .go:hover{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    color: #fab72a;
+}
+#sidebar{
+    width: 298px;
+    float: left;
+}
+#sidebar h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+#sidebar h2:hover{
+    color:green;
+    font-style: italic;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color: #6b710b;
+    padding: 3px;
+    display: block;
+    font-weight: bold;
+}
+#sidebar ul li{
+    list-style-type: square;
+}
+.footer_bg{
+    background-color: #635548;
+}
+#footer{
+    border-right: 1px solid green;
+    border-left:1px solid green  ;
+    padding: 5px;
+    text-align: center;
+
+}
+#footer p{
+    color: #fff;
+}
+#imgp_wrap img{
+ width: 75px;
+ height: 60px;
+ padding: 4px;
+ background: #ddd;
+ margin-right: 10px;
+ float: left;
+ margin-top: 15px;
+ 
+}
+#imgp_wrap p{
+    border-bottom: 1px solid #6b710b;
+    padding: 10px;
+    margin-top:20px; 
+}
+
