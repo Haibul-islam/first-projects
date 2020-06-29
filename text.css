@@ -196,6 +196,7 @@ blockquote{
 }
 .footer_bg{
     background-color: #635548;
+    background-size: cover;
 }
 #footer{
     border-right: 1px solid green;
